@@ -1,1 +1,97 @@
-html file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contats</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Photo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__img">
+            <img src="myPhoto.jpg" alt="myPhoto">
+        </div>
+        <div class="main__text">
+            <h1>Koshurnikov Vadim</h1>
+            <div class="main__line">
+            </div>
+            <h2>Junior Front-end developer</h2>
+        </div>
+        </div>
+    </main>
+    <section>
+        <div class="border-line"></div>
+        <div class="content">
+            <div class="content_card">
+                <div class="card__title">CONTACTS</div>
+                <div class="card__descr">
+                    <ul>
+                        <li>Country: Russia</li>
+                        <li>City: Kirov</li>
+                        <li>Github: breini43</li>
+                        <li>Telegram: vadim_43ru</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_card">
+                <div class="card__title">SUMMARY</div>
+                <div class="card__descr">
+                    I love programming. <br>9 years ago I writting my first app for Android phone. <br>After I learning programming language C# for Desktop, Kotlin for Android and Python for API.
+                </div>
+            </div>
+            <div class="content_card">
+                <div class="card__title">SKILLS</div>
+                <div class="card__descr">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>SASS/LESS/SCSS</li>
+                        <li>WebPack</li>
+                        <li>Gulp</li>
+                        <li>Jira</li>
+                </div>
+            </div>
+            <div class="content_card">
+                <div class="card__title">CODE</div>
+                <div class="card__descr">
+                    function descendingOrder(n) {
+      
+                        let convertNumber = n.toString();
+                        let newArray = convertNumber.split('');
+                        let sortArray = newArray.sort();
+                        let reverseArray = sortArray.reverse();
+                        let joinArray = sortArray.join('');
+                        let Numberback = Number(joinArray)
+                        
+                        return Numberback;
+                      }
+                </div>
+            </div>
+            <div class="content_card">
+                <div class="card__title">COURSES</div>
+                <div class="card__descr">
+                    Course testing by Vadim Ksendzov
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="footer__year">2023</div>
+                <div class="footer__nickname">Github: breini43</div>
+                <div class="footer__logo">
+                    <img src="rs_logo.png" alt="rs_logo">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
