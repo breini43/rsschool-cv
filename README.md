@@ -1,3 +1,2 @@
 # rsschool-cv
-https://breini43.github.io/rsschool-cv/cv
-https://breini43.github.io/rsschool-cv/
+https://github.com/breini43/rsschool-cv/blob/main/index.html
